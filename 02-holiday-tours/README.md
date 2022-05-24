@@ -10,3 +10,5 @@
 - Pass tours props to Tours component and destructure that in Tours.js as well
 - Map through the tours array inside the section to display all tours
 - Destructure single tour props in Tour.js func, and display all functionality
+- set state for readMore functionality, and use ternary to display substring of paragraph
+- Add button to toggle the state. Set setReadMore to show full paragraph or a part of it
