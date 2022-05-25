@@ -139,18 +139,20 @@ Reviews
 ===============
 */
 main {
-  min-height: 100vh;
+  min-height: 90vh;
   display: grid;
   place-items: center;
 }
 .title {
   text-align: center;
+  margin-top: 2rem;
   margin-bottom: 4rem;
+  color: #e62766;
 }
 .underline {
   height: 0.25rem;
   width: 5rem;
-  background: var(--clr-primary-5);
+  background: var(--clr-grey-5);
   margin-left: auto;
   margin-right: auto;
 }
@@ -194,9 +196,9 @@ main {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  transform: translateY(25%);
-  background: var(--clr-primary-5);
-  color: var(--clr-white);
+  transform: translateY(15%);
+  background: #e62766;
+  color: var(--clr-primary-10);
 }
 .img-container::before {
   content: '';
@@ -210,19 +212,22 @@ main {
 }
 .author {
   margin-bottom: 0.25rem;
+  color: var(--clr-primary-1);
+  font-size: 1.5rem;
 }
 .job {
   margin-bottom: 0.5rem;
   text-transform: uppercase;
-  color: var(--clr-primary-5);
-  font-size: 0.85rem;
+  color: #e62766;
+  font-size: 1rem;
 }
 .info {
   margin-bottom: 0.75rem;
+  color: var(--clr-primary-1);
 }
 .prev-btn,
 .next-btn {
-  color: var(--clr-primary-7);
+  color: #e62766;
   font-size: 1.25rem;
   background: transparent;
   border-color: transparent;
@@ -237,12 +242,12 @@ main {
 .random-btn {
   margin-top: 0.5rem;
   background: var(--clr-primary-10);
-  color: var(--clr-primary-5);
-  padding: 0.25rem 0.5rem;
-  text-transform: capitalize;
+  color: #e62766;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: 1px solid #e62766;
   border-radius: var(--radius);
   transition: var(--transition);
-  border-color: transparent;
   cursor: pointer;
 }
 .random-btn:hover {
