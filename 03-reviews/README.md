@@ -8,3 +8,4 @@
 - Set article container and display all items info in it
 - Set onClick functions to fetch prev and next persons.
   - Add function to check the value of index. To continue fetching person after end of list, or previous person at beginning of list.
+- Set function to get a random person from the list
