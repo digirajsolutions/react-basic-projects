@@ -7,9 +7,23 @@ import Error from './pages/Error'
 import Navbar from './components/Navbar'
 function App() {
   return (
-    <>
-      <Router></Router>
-    </>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path='/'>
+          <Home />
+        </Route>
+        <Route path='/about'>
+          <About />
+        </Route>
+        <Route path='/cocktail/:id'>
+          <SingleCocktail />
+        </Route>
+        <Route exact path='*'>
+          <Error />
+        </Route>
+      </Switch>
+    </Router>
   )
 }
 
