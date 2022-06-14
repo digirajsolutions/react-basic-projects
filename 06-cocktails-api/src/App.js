@@ -19,7 +19,7 @@ function App() {
         <Route path='/cocktail/:id'>
           <SingleCocktail />
         </Route>
-        <Route exact path='*'>
+        <Route path='*'>
           <Error />
         </Route>
       </Switch>
