@@ -194,3 +194,34 @@ img {
     height: 5em;
   }
 }
+
+/* Search form */
+.search {
+  margin-top: 1rem;
+  padding-bottom: 0;
+}
+.search-form {
+  width: 85vw;
+  margin: 0 auto;
+  max-width: 40rem;
+  background: #006778;
+  padding: 2rem 2.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.form-control label {
+  display: block;
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.25rem;
+  color: #fcdab7;
+}
+.form-control input {
+  width: 100%;
+  border: none;
+  border-color: transparent;
+  background: #f6e3c5;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
